@@ -1,0 +1,103 @@
+/*Content*/
+
+.content {
+	/*width: 100%;*/
+	position: relative;
+	padding: 22px 10px 170px 10px;
+}
+
+/*Bread_crumbs*/
+
+section.bread_crumbs li {
+	display: inline-block;
+}
+
+section.bread_crumbs li a {
+	font-size: 14px;
+}
+
+section.bread_crumbs li a:hover {
+	text-decoration: none;
+}
+
+section.bread_crumbs li:after {
+	color: #767676;
+	content: " / ";	
+	font-size: 14px;
+}
+
+section.bread_crumbs li:last-child:after {
+	content: none;
+}
+
+/*Leftblock*/
+
+.leftblock {
+	float: left;
+	width: 200px;
+}
+
+.leftblock .leftblock_mnu li {
+	margin-bottom: 10px;
+}
+
+.leftblock .leftblock_mnu li.active > a {
+	text-decoration: underline;
+}
+
+.leftblock .leftblock_mnu a {
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.leftblock .leftblock_mnu a:hover {
+	text-decoration: underline;
+}
+
+.leftblock .mnu_wrapp {
+	margin-left: 20px;
+}
+
+.leftblock .mnu_wrapp li {
+	margin-bottom: 0;
+	list-style: disc;
+}
+
+.leftblock .mnu_wrapp a {
+	margin-left: -2px;
+	font-size: 14px;
+}
+
+.leftblock .mnu_wrapp li:hover a, .leftblock .mnu_wrapp li.active a {
+	color: #010101;
+}
+
+.leftblock_mnu {
+	margin-bottom: 110px;
+}
+
+.mnu_button_leftblock {
+	/*display: none;*/
+    cursor: pointer;
+    transition: all 100ms ease;	
+    background-color: transparent;
+    border: medium none;
+    color: #777;
+    font-size: 30px;
+    padding: 0 8px;
+}
+
+/*Price_list*/
+
+.price_list {
+	background: url("../img/price-list.png") 45px 0 no-repeat;
+	display: block;
+	font-size: 30px;
+	color: #444;
+	font-weight: 700;
+	padding-top: 120px;
+	font-family: 'PT Sans', sans-serif;
+	text-align: center;
+	text-decoration: none;
+}
+
