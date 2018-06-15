@@ -1,0 +1,67 @@
+@font-face {
+	font-family: 'PTSansRegular';
+	src: url('../fonts/PTSansRegular.eot');
+	src: url('../fonts/PTSansRegular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/PTSansRegular.woff') format('woff'),
+		url('../fonts/PTSansRegular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;	
+}
+
+body {
+	font-family: 'PT Sans', sans-serif;
+	color: #767676;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+a {
+	color: #767676;
+}
+
+.center_container {
+	position: relative;
+	max-width: 1000px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+.atr:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	clear: both;
+	height: 0;
+	content: " ";
+}
+
+::-webkit-input-placeholder {
+  color: #dc7f7f;
+  font-style: italic;
+  font-size: 14px;
+}
+
+:-moz-placeholder {
+  color: #dc7f7f;
+  font-style: italic;
+  font-size: 14px;
+}
+
+::-moz-placeholder {
+  color: #dc7f7f;
+  font-style: italic;
+  font-size: 14px;
+}
+
+:-ms-input-placeholder {
+  color: #dc7f7f;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.ps-prev {
+	display: block;
+}
+.ps-next {
+	display: block;
+}

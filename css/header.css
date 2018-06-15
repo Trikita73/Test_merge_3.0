@@ -1,0 +1,47 @@
+/*Header*/
+
+header {
+	width: 100%;
+	background: #dcdcdc;
+	padding-bottom: 10px;
+	min-height: 220px;
+}
+
+.logo {
+	margin-top: 65px;
+	float: left;
+}
+
+.phone_header {
+	float: right;
+	margin-top: 45px;
+}
+
+.phone_header .phone, .phone span {
+	font-size: 40px;
+	color: #767676;
+	font-family: 'PTSansRegular', sans-serif;
+	display: block;	
+	margin-bottom: 10px;
+	line-height: 100%;
+}
+
+.feedback_form {
+	float: right;
+	text-decoration: none;
+	border-bottom: 1px dashed #767676;
+	font-size: 24px;
+	line-height: 1;
+} 
+
+.feedback_form:hover {
+	border-bottom: 1px solid transparent;
+}
+
+/*Media*/
+
+@media (max-width: 400px) {
+	.phone_header .phone, .phone span {
+		font-size: 30px;
+	}
+}

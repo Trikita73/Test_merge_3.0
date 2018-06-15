@@ -1,0 +1,129 @@
+/*Feedback*/
+
+body.open-dialog {
+	overflow: hidden;
+}
+
+.bg_fon {
+	position: absolute;
+	background: rgba(0, 0, 0, .5);
+	width: 100%;
+	display: none;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	min-height: 100%;
+}
+
+#forms {
+  background-color: #fff;
+  width: 354px;
+  padding: 34px 55px 27px 55px;
+  position: absolute;
+  left: 50%;
+  top: 120px;
+  display: none;
+  text-align: center;
+  margin-left: -232px;
+  z-index: 101;
+}
+
+#forms .title span {
+  font-size: 24px;
+  color: #535353;
+  text-transform: uppercase;
+  display: block;
+  font-family: "PT Sans", sans-serif;
+  margin-bottom: 35px;
+  font-weight: 700;
+}
+
+#forms fieldset {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+#forms fieldset label {
+	display: block;
+	font-size: 14px;
+}
+
+#forms fieldset input, #forms fieldset textarea {
+	height: 40px;
+	padding: 0 10px;
+	width: 320px;
+	border: 1px solid #c3c3c3;
+	color: #767676;
+	font-size: 14px;
+}
+
+#forms fieldset textarea {
+	resize: none;
+	padding: 10px;
+	height: 120px;
+}
+
+#forms .submit {
+	cursor: pointer;
+	font-size: 18px;
+	border: none;
+	color: #fff;
+	background: #777;
+	width: 130px;
+	font-weight: 700;
+	line-height: 40px;
+	font-family: "PT Sans", sans-serif;
+}
+
+#forms .submit:hover, #forms .close_btn:hover {
+	opacity: 0.75;
+}
+
+#forms .close_btn {
+	width: 27px;
+	height: 27px;
+	position: absolute;
+	background: #777 url("../img/close.png") 6px 6px no-repeat;
+	cursor: pointer;
+	top: -27px;
+	right: -27px;
+}
+
+#forms fieldset.error input{
+  border: 1px solid #ff8383;
+  -webkit-box-shadow: inset 0px 0px 13px 0px rgba(228, 106, 106, 0.75);
+  -moz-box-shadow:    inset 0px 0px 13px 0px rgba(228, 106, 106, 0.75);
+  box-shadow:         inset 0px 0px 13px 0px rgba(228, 106, 106, 0.75);
+}
+
+#forms fieldset.check input{
+  border: 1px solid #1c852f;
+  -webkit-box-shadow: inset 0px 0px 13px 0px rgba(28, 133, 47, 0.75);
+  -moz-box-shadow:    inset 0px 0px 13px 0px rgba(28, 133, 47, 0.75);
+  box-shadow:         inset 0px 0px 13px 0px rgba(28, 133, 47, 0.75);
+}
+
+/*Media*/
+
+@media (max-width: 680px) {
+	#forms {
+	  width: 254px;
+	  margin-left: -185px;
+  	}
+
+  	#forms fieldset input, #forms fieldset textarea {
+  		width: 220px;
+  	}
+}
+
+@media (max-width: 430px) {
+	#forms {
+		width: 180px;
+		margin-left: -148px;
+	}
+	#forms fieldset input, #forms fieldset textarea {
+  		width: 190px;
+  		padding: 0;
+  	}
+
+}
